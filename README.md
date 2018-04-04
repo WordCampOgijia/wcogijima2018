@@ -9,3 +9,6 @@ WordCamp Ogijima 2018 のサイトの CSS とか画像などをおきます。
 3. cd wcogijima2018
 4. npm install
 5. npm run gulp sass
+
+## WordPress 設定
+1. ホームページ設定で「ホームページ」と「投稿ページを」それぞれ割り当て
