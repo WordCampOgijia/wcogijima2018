@@ -1,0 +1,35 @@
+.twentyseventeen-panel {
+  .entry-header {
+    .entry-title {
+      color: #2f4d65;
+      font-size: 25px;
+
+      &::after {
+        display: inline-block;
+        color: #b9ddeb;
+        font-size: 18px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &:first-child {
+    .panel-image {
+      display: none;
+    }
+
+    .entry-header .entry-title::after {
+      content: 'OUTLINE';
+    }
+
+    .panel-content {
+      .wrap {
+        @media screen and (min-width: 1024px) {
+          padding-right: 0;
+          padding-left: 0;
+          max-width: 984px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.outline {
+  overflow: hidden;
+
+  &__content {
+    @media screen and (min-width: 1024px) {
+      float: left;
+      width: 640px;
+    }
+  }
+
+  &__info {
+    margin: 2em 0 0;
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg);
+    border-radius: 5px;
+    padding: 1em 2em;
+
+    @media screen and (min-width: 1024px) {
+      margin: 0;
+      float: right;
+      width: 284px;
+      padding: 2em 3em;
+    }
+
+    dt, dd {
+      margin: 0;
+      font-size: 14px;
+      padding: 0;
+    }
+
+    dt {
+      font-weight: bold;
+
+      &:not(:first-child) {
+        margin-top: 1em;
+
+        @media screen and (min-width: 1024px) {
+          margin-top: 2em;
+        }
+      }
+    }
+  }
+}
