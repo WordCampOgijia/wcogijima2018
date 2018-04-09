@@ -1,0 +1,37 @@
+.navigation-top {
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 10px;
+  border-top: none;
+  border-bottom: none;
+  margin: 0 20px;
+  bottom: 45px;
+  width: auto;
+
+  .wrap {
+    max-width: none;
+  }
+
+  @media screen and (min-width: 1120px) {
+    width: 1080px;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+  }
+
+  a {
+    color: #241e1e;
+
+    @media screen and (min-width: 48em) {
+      padding: .5em 1.25em;
+    }
+  }
+
+  .current-menu-item > a,
+  .current_page_item > a {
+    color: #241e1e;
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 115px auto;
+  }
+}

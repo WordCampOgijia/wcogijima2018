@@ -1,0 +1,14 @@
+.site-header {
+  position: relative;
+
+  .custom-header-media {
+    &::before {
+      background: none !important;
+    }
+  }
+
+  .site-branding {
+    position: absolute;
+    top: 10%;
+  }
+}
