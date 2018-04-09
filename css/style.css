@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .entry-content strong {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
   background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
@@ -98,23 +99,50 @@
     position: absolute;
     top: 10%; }
 
-.twentyseventeen-panel .entry-header .entry-title {
-  color: #2f4d65;
-  font-size: 25px; }
-  .twentyseventeen-panel .entry-header .entry-title::after {
-    display: inline-block;
-    color: #b9ddeb;
-    font-size: 18px;
-    margin-left: 5px; }
-
-.twentyseventeen-panel:first-child .panel-image {
-  display: none; }
-
-.twentyseventeen-panel:first-child .entry-header .entry-title::after {
-  content: 'OUTLINE'; }
-
-@media screen and (min-width: 1024px) {
-  .twentyseventeen-panel:first-child .panel-content .wrap {
-    padding-right: 0;
-    padding-left: 0;
-    max-width: 984px; } }
+.twentyseventeen-panel {
+  /**
+   * 開催概要
+   */
+  /**
+   * 夜キャンプ
+   */ }
+  .twentyseventeen-panel .entry-header .entry-title {
+    color: #2f4d65;
+    font-size: 25px; }
+    .twentyseventeen-panel .entry-header .entry-title::after {
+      display: inline-block;
+      color: #b9ddeb;
+      font-size: 18px;
+      margin-left: 5px; }
+  .twentyseventeen-panel:first-child .panel-image {
+    display: none; }
+  .twentyseventeen-panel:first-child .entry-header .entry-title::after {
+    content: 'OUTLINE'; }
+  @media screen and (min-width: 1024px) {
+    .twentyseventeen-panel:first-child .panel-content .wrap {
+      padding-right: 0;
+      padding-left: 0;
+      max-width: 984px; } }
+  .twentyseventeen-panel:nth-child(2) {
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/night-camp.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding: 3em 0; }
+    .twentyseventeen-panel:nth-child(2) .panel-content {
+      padding: 2em; }
+      @media screen and (min-width: 1024px) {
+        .twentyseventeen-panel:nth-child(2) .panel-content {
+          margin: 0 auto;
+          max-width: 984px;
+          padding: 0; } }
+      .twentyseventeen-panel:nth-child(2) .panel-content .wrap {
+        background-color: rgba(0, 0, 0, 0.6);
+        display: inline-block;
+        padding: 3em 2em;
+        max-width: none; }
+        .twentyseventeen-panel:nth-child(2) .panel-content .wrap .entry-header {
+          margin-bottom: 0; }
+        .twentyseventeen-panel:nth-child(2) .panel-content .wrap .entry-title,
+        .twentyseventeen-panel:nth-child(2) .panel-content .wrap .entry-content {
+          color: #fff; }

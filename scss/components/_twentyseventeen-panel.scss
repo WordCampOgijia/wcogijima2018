@@ -13,6 +13,9 @@
     }
   }
 
+  /**
+   * 開催概要
+   */
   &:first-child {
     .panel-image {
       display: none;
@@ -28,6 +31,43 @@
           padding-right: 0;
           padding-left: 0;
           max-width: 984px;
+        }
+      }
+    }
+  }
+
+  /**
+   * 夜キャンプ
+   */
+  &:nth-child(2) {
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/night-camp.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding: 3em 0;
+
+    .panel-content {
+      padding: 2em;
+
+      @media screen and (min-width: 1024px) {
+        margin: 0 auto;
+        max-width: 984px;
+        padding: 0;
+      }
+
+      .wrap {
+        background-color: rgba(#000, .6);
+        display: inline-block;
+        padding: 3em 2em;
+        max-width: none;
+
+        .entry-header {
+          margin-bottom: 0;
+        }
+
+        .entry-title,
+        .entry-content {
+          color: #fff;
         }
       }
     }
