@@ -86,7 +86,21 @@
       content: 'NEWS';
     }
 
+    .panel-content {
+      .wrap {
+        @media screen and (min-width: 1024px) {
+          padding-right: 0;
+          padding-left: 0;
+          max-width: 840px;
+        }
+      }
+    }
+
     .recent-posts {
+      @media screen and (min-width: 1024px) {
+        max-width: 565px;
+      }
+
       .hentry {
         margin-bottom: 15px;
       }
@@ -118,6 +132,43 @@
 
       .entry-summary {
         display: none;
+      }
+    }
+  }
+
+  /**
+   * Follow me!
+   */
+  &:nth-child(4) {
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg);
+
+    .entry-header {
+      .entry-title {
+        text-transform: none;
+      }
+    }
+
+    .panel-content {
+      .wrap {
+        @media screen and (min-width: 1024px) {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding-right: 0;
+          padding-left: 0;
+          max-width: 840px;
+
+          > .entry-header {
+            flex: 0 1 auto;
+            margin: 0;
+          }
+
+          > .entry-content {
+            flex: 1;
+            margin-left: 2em;
+          }
+        }
       }
     }
   }
