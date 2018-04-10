@@ -1,0 +1,23 @@
+.site-info {
+  float: none !important;
+  width: auto !important;
+  margin: 0;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+
+  &::after {
+    content: "\f120";
+    color: #fff;
+    font-family: dashicons;
+    font-size: 25px;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 50px;
+    }
+  }
+
+  > a {
+    display: none;
+  }
+}

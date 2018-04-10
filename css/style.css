@@ -148,6 +148,9 @@
       max-width: 1180px;
       padding: 0 100px; } }
 
+.site-footer {
+  background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg); }
+
 .site-header {
   position: relative; }
   .site-header .custom-header-media::before {
@@ -155,6 +158,24 @@
   .site-header .site-branding {
     position: absolute;
     top: 10%; }
+
+.site-info {
+  float: none !important;
+  width: auto !important;
+  margin: 0;
+  line-height: 1;
+  padding: 0;
+  text-align: center; }
+  .site-info::after {
+    content: "\f120";
+    color: #fff;
+    font-family: dashicons;
+    font-size: 25px; }
+    @media screen and (min-width: 1024px) {
+      .site-info::after {
+        font-size: 50px; } }
+  .site-info > a {
+    display: none; }
 
 .twentyseventeen-panel {
   /**
