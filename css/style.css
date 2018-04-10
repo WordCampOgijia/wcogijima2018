@@ -105,6 +105,9 @@
    */
   /**
    * 夜キャンプ
+   */
+  /**
+   * お知らせ
    */ }
   .twentyseventeen-panel .entry-header .entry-title {
     color: #2f4d65;
@@ -146,3 +149,29 @@
         .twentyseventeen-panel:nth-child(2) .panel-content .wrap .entry-title,
         .twentyseventeen-panel:nth-child(2) .panel-content .wrap .entry-content {
           color: #fff; }
+  .twentyseventeen-panel:nth-child(3) {
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 25%; }
+    .twentyseventeen-panel:nth-child(3) .entry-header .entry-title::after {
+      content: 'NEWS'; }
+    .twentyseventeen-panel:nth-child(3) .recent-posts .hentry {
+      margin-bottom: 15px; }
+    .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header {
+      margin-bottom: 0; }
+      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-date {
+        margin: 0 5px;
+        font-size: 12px;
+        font-weight: normal; }
+      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title {
+        border-bottom: 2px solid #80c3db;
+        font-size: 15px;
+        font-weight: normal;
+        padding: 0 0 15px; }
+        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title::after {
+          display: none; }
+        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a {
+          margin: 0 5px; }
+    .twentyseventeen-panel:nth-child(3) .recent-posts .entry-summary {
+      display: none; }
