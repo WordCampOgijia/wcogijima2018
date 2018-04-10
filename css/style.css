@@ -168,6 +168,9 @@
    */
   /**
    * Follow me!
+   */
+  /**
+   * スポンサー
    */ }
   .twentyseventeen-panel .entry-header .entry-title {
     color: #2f4d65;
@@ -274,3 +277,84 @@
           -ms-flex: 1;
           flex: 1;
           margin-left: 2em; } }
+  .twentyseventeen-panel:nth-child(5) .entry-header .entry-title::after {
+    content: 'SPONSORS'; }
+  @media screen and (min-width: 1024px) {
+    .twentyseventeen-panel:nth-child(5) .panel-content .wrap {
+      padding-right: 0;
+      padding-left: 0;
+      max-width: 840px; } }
+
+.wcorg-sponsors h2 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  margin: 2em 0 .5em;
+  color: #2f4d65;
+  font-size: 18px;
+  padding: 0 10px; }
+  @media screen and (min-width: 1024px) {
+    .wcorg-sponsors h2 {
+      padding: 0 25px; } }
+
+.wcorg-sponsors .wcorg-sponsor-level-gold,
+.wcorg-sponsors .wcorg-sponsor-level-silver,
+.wcorg-sponsors .wcorg-sponsor-level-bronze {
+  margin: 0 -10px -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden; }
+  @media screen and (min-width: 1024px) {
+    .wcorg-sponsors .wcorg-sponsor-level-gold,
+    .wcorg-sponsors .wcorg-sponsor-level-silver,
+    .wcorg-sponsors .wcorg-sponsor-level-bronze {
+      margin: 0 -25px -25px; } }
+
+.wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%; }
+
+.wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor,
+.wcorg-sponsors .wcorg-sponsor-level-bronze .wcorg-sponsor {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33%;
+  flex: 0 1 33%; }
+
+.wcorg-sponsors .wcorg-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px 10px;
+  max-width: 100%; }
+  @media screen and (min-width: 1024px) {
+    .wcorg-sponsors .wcorg-sponsor {
+      padding: 0 25px 25px; } }
+  .wcorg-sponsors .wcorg-sponsor h3 {
+    display: none; }
+  .wcorg-sponsors .wcorg-sponsor .wcorg-sponsor-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #bedfea; }
+    @media screen and (min-width: 1024px) {
+      .wcorg-sponsors .wcorg-sponsor .wcorg-sponsor-description {
+        padding: 20px; } }
+    .wcorg-sponsors .wcorg-sponsor .wcorg-sponsor-description :not(img) {
+      display: none; }
+    .wcorg-sponsors .wcorg-sponsor .wcorg-sponsor-description img {
+      vertical-align: bottom; }
