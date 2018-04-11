@@ -1,9 +1,10 @@
 .site-info {
   float: none !important;
   width: auto !important;
-  margin: 0;
+  margin: 0 calc(50% - 50vw);
+  background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg);
   line-height: 1;
-  padding: 0;
+  padding: 2em 0 1.5em;
   text-align: center;
 
   &::after {
