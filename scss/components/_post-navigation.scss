@@ -1,0 +1,23 @@
+.post-navigation {
+  border-top: 2px solid #7dc3dc;
+
+  .nav-links {
+    padding-right: 2em;
+    padding-left: 2em;
+
+    a {
+      background: linear-gradient(transparent 60%, #ff6 60%);
+      box-shadow: none;
+
+      &:hover, &:active, &:focus {
+        background: none;
+        color: #448cce;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .nav-subtitle {
+    display: none;
+  }
+}
