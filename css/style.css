@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("/wp-includes/css/dashicons.min.css");
 .has-header-image #masthead .custom-header,
 .has-header-video #masthead .custom-header,
 .has-header-image #masthead .custom-header,
@@ -372,9 +373,7 @@
     .wcorg-sponsors h2 {
       padding: 0 25px; } }
 
-.wcorg-sponsors .wcorg-sponsor-level-gold,
-.wcorg-sponsors .wcorg-sponsor-level-silver,
-.wcorg-sponsors .wcorg-sponsor-level-bronze {
+.wcorg-sponsors [class^="wcorg-sponsor-level-"] {
   margin: 0 -10px -10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,18 +386,16 @@
   flex-wrap: wrap;
   overflow: hidden; }
   @media screen and (min-width: 1024px) {
-    .wcorg-sponsors .wcorg-sponsor-level-gold,
-    .wcorg-sponsors .wcorg-sponsor-level-silver,
-    .wcorg-sponsors .wcorg-sponsor-level-bronze {
+    .wcorg-sponsors [class^="wcorg-sponsor-level-"] {
       margin: 0 -25px -25px; } }
 
-.wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor {
+.wcorg-sponsors [class^="wcorg-sponsor-level-"]:nth-of-type(1) .wcorg-sponsor,
+.wcorg-sponsors [class^="wcorg-sponsor-level-"]:nth-of-type(2) .wcorg-sponsor {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 50%;
   flex: 0 1 50%; }
 
-.wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor,
-.wcorg-sponsors .wcorg-sponsor-level-bronze .wcorg-sponsor {
+.wcorg-sponsors [class^="wcorg-sponsor-level-"]:nth-of-type(n + 3) .wcorg-sponsor {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 33%;
   flex: 0 1 33%; }

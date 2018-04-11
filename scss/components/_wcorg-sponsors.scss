@@ -11,9 +11,7 @@
     }
   }
 
-  .wcorg-sponsor-level-gold,
-  .wcorg-sponsor-level-silver,
-  .wcorg-sponsor-level-bronze {
+  [class^="wcorg-sponsor-level-"] {
     margin: 0 -10px -10px;
     display: flex;
     flex-direction: row;
@@ -25,14 +23,14 @@
     }
   }
 
-  .wcorg-sponsor-level-gold {
+  [class^="wcorg-sponsor-level-"]:nth-of-type(1),
+  [class^="wcorg-sponsor-level-"]:nth-of-type(2) {
     .wcorg-sponsor {
       flex:0 1 50%;
     }
   }
 
-  .wcorg-sponsor-level-silver,
-  .wcorg-sponsor-level-bronze {
+  [class^="wcorg-sponsor-level-"]:nth-of-type(n + 3) {
     .wcorg-sponsor {
       flex:0 1 33%;
     }
