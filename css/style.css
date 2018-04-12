@@ -256,6 +256,35 @@ html {
     background-repeat: no-repeat;
     background-position: 50% 100%;
     background-size: 115px auto; }
+  .navigation-top .menu-item-has-children::after,
+  .navigation-top .page_item_has_children::after {
+    border-bottom-color: #38576d !important; }
+  .navigation-top .sub-menu {
+    background-color: #38576d;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    padding: .75em 0; }
+    .navigation-top .sub-menu > .menu-item {
+      background-color: transparent !important; }
+      .navigation-top .sub-menu > .menu-item > a {
+        position: relative;
+        color: #d8ecf5;
+        padding: .75em 1.25em .75em 2em; }
+        @media screen and (min-width: 48em) {
+          .navigation-top .sub-menu > .menu-item > a:hover, .navigation-top .sub-menu > .menu-item > a:active, .navigation-top .sub-menu > .menu-item > a:focus {
+            color: #fff; }
+            .navigation-top .sub-menu > .menu-item > a:hover::before, .navigation-top .sub-menu > .menu-item > a:active::before, .navigation-top .sub-menu > .menu-item > a:focus::before {
+              position: absolute;
+              margin-top: 4px;
+              margin-left: -16px;
+              content: '';
+              display: inline-block;
+              width: 11px;
+              height: 11px;
+              background-color: #fff721;
+              border-radius: 100%; } }
 
 .outline {
   overflow: hidden; }
