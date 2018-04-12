@@ -21,11 +21,14 @@
   .wcb_widget_sponsors {
     margin: 0 auto;
     overflow: hidden;
-    padding: 0 2em;
+    padding: 1.75em 2em;
+
+    @media screen and (min-width: 30em) {
+      padding: 3.5em 2em;
+    }
 
     @media screen and (min-width: 1024px) {
-      padding-right: 0;
-      padding-left: 0;
+      padding: 6em 0;
       max-width: 840px;
     }
 
@@ -87,10 +90,7 @@
         img {
           vertical-align: bottom;
           border: 10px solid transparent;
-
-          @media screen and (min-width: 768px) {
-            border-width: 20px 40px;
-          }
+          object-fit: contain;
         }
       }
 
@@ -98,12 +98,24 @@
       &:nth-of-type(2) {
         .sponsor-logo {
           flex:0 1 50%;
+
+          img {
+            @media screen and (min-width: 768px) {
+              border-width: 50px 25px;
+            }
+          }
         }
       }
 
       &:nth-of-type(n + 3) {
         .sponsor-logo {
           flex:0 1 33%;
+
+          img {
+            @media screen and (min-width: 768px) {
+              border-width: 40px 40px;
+            }
+          }
         }
       }
     }
@@ -113,8 +125,9 @@
    * メニュー
    */
   .widget_nav_menu {
-    margin: 3em 0 .5em;
-    padding: 0;
+    margin: 0 calc(50% - 50vw);
+    border-top: 1px solid #bddfeb;
+    padding: .5em 0;
     text-align: center;
 
     body:not(.twentyseventeen-front-page) & {
@@ -128,6 +141,15 @@
         border-top: none;
         border-bottom: none;
         padding: 0;
+
+        a {
+          box-shadow: none;
+
+          &:hover, &:active, &:focus {
+            background: linear-gradient(transparent 60%, #ff6 60%);
+            box-shadow: none;
+          }
+        }
 
         ul {
           display: none;
