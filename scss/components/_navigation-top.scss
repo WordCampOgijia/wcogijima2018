@@ -26,13 +26,15 @@
     }
   }
 
-  .current-menu-item > a,
-  .current_page_item > a {
-    color: #241e1e;
-    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    background-size: 115px auto;
+  .menu {
+    > .current-menu-item > a,
+    > .current_page_item > a {
+      color: #241e1e;
+      background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png);
+      background-repeat: no-repeat;
+      background-position: 50% 100%;
+      background-size: 115px auto;
+    }
   }
 
   .menu-item-has-children,

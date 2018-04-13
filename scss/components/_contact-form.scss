@@ -1,0 +1,66 @@
+.contact-form {
+  > * + * {
+    margin-top: 1.5em;
+
+    @media screen and (min-width: 40em) {
+      margin-top: 2.5em;
+    }
+  }
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="range"],
+  input[type="date"],
+  input[type="month"],
+  input[type="week"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="color"],
+  textarea {
+    border: 1px solid #61a1bc;
+    border-radius: 5px;
+  }
+
+  .grunion-field-label {
+    margin-bottom: 3px;
+    font-weight: normal;
+    font-size: 15px;
+
+    > span {
+      margin-left: 5px;
+      color: #db3026;
+      font-size: 12px;
+    }
+  }
+
+  .contact-submit {
+    .pushbutton-wide {
+      background-color: #42809a;
+      border-bottom: 3px solid #ddd;
+      border-radius: 22px;
+      font-size: 15px;
+      padding: 1em 3em;
+
+      @media screen and (min-width: 1024px) {
+        &:hover, &:active, &:focus {
+          background-color: #304d64;
+        }
+
+        &:active {
+          transform: translateY(3px);
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+}

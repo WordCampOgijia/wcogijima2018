@@ -17,6 +17,58 @@ html {
 #page #secondary {
   display: none; }
 
+.contact-form > * + * {
+  margin-top: 1.5em; }
+  @media screen and (min-width: 40em) {
+    .contact-form > * + * {
+      margin-top: 2.5em; } }
+
+.contact-form > :first-child {
+  margin-top: 0; }
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="url"],
+.contact-form input[type="password"],
+.contact-form input[type="search"],
+.contact-form input[type="number"],
+.contact-form input[type="tel"],
+.contact-form input[type="range"],
+.contact-form input[type="date"],
+.contact-form input[type="month"],
+.contact-form input[type="week"],
+.contact-form input[type="time"],
+.contact-form input[type="datetime"],
+.contact-form input[type="datetime-local"],
+.contact-form input[type="color"],
+.contact-form textarea {
+  border: 1px solid #61a1bc;
+  border-radius: 5px; }
+
+.contact-form .grunion-field-label {
+  margin-bottom: 3px;
+  font-weight: normal;
+  font-size: 15px; }
+  .contact-form .grunion-field-label > span {
+    margin-left: 5px;
+    color: #db3026;
+    font-size: 12px; }
+
+.contact-form .contact-submit .pushbutton-wide {
+  background-color: #42809a;
+  border-bottom: 3px solid #ddd;
+  border-radius: 22px;
+  font-size: 15px;
+  padding: 1em 3em; }
+  @media screen and (min-width: 1024px) {
+    .contact-form .contact-submit .pushbutton-wide:hover, .contact-form .contact-submit .pushbutton-wide:active, .contact-form .contact-submit .pushbutton-wide:focus {
+      background-color: #304d64; }
+    .contact-form .contact-submit .pushbutton-wide:active {
+      -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+      transform: translateY(3px);
+      border-bottom-color: transparent; } }
+
 .has-header-image #masthead .custom-header,
 .has-header-video #masthead .custom-header,
 .has-header-image #masthead .custom-header,
@@ -249,8 +301,8 @@ html {
     @media screen and (min-width: 48em) {
       .navigation-top a {
         padding: .5em 1.25em; } }
-  .navigation-top .current-menu-item > a,
-  .navigation-top .current_page_item > a {
+  .navigation-top .menu > .current-menu-item > a,
+  .navigation-top .menu > .current_page_item > a {
     color: #241e1e;
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png);
     background-repeat: no-repeat;
