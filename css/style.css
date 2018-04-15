@@ -342,6 +342,8 @@ html {
               height: 11px;
               background-color: #fff721;
               border-radius: 100%; } }
+  .navigation-top .menu-scroll-down {
+    display: none; }
 
 .outline {
   overflow: hidden; }
