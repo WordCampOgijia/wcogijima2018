@@ -40,3 +40,18 @@
     }
   }
 }
+
+
+
+body:not(.twentyseventeen-front-page) {
+  &.has-header-image #masthead .custom-header,
+  &.has-header-video #masthead .custom-header,
+  &.has-header-image #masthead .custom-header,
+  &.has-header-video #masthead .custom-header {
+    .custom-header-media {
+      @media screen and (min-width: 48em) {
+        max-height: calc(83vh - 32px);;
+      }
+    }
+  }
+}

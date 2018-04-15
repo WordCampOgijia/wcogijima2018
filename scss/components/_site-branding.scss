@@ -35,3 +35,16 @@
     }
   }
 }
+
+body:not(.twentyseventeen-front-page) {
+  .site-branding {
+    .site-title {
+      > a {
+        @media screen and (min-width: 1024px) {
+          width: 370px;
+          height: 212px;
+        }
+      }
+    }
+  }
+}
