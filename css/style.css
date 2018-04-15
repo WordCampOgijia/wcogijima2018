@@ -308,6 +308,11 @@ html {
     background-repeat: no-repeat;
     background-position: 50% 100%;
     background-size: 115px auto; }
+    .navigation-top .menu > .current-menu-item > a[href*="#post-"],
+    .navigation-top .menu > .current_page_item > a[href*="#post-"] {
+      background: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
   .navigation-top .menu-item-has-children::after,
   .navigation-top .page_item_has_children::after {
     border-bottom-color: #38576d !important; }
