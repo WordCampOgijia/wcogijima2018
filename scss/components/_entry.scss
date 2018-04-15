@@ -111,14 +111,7 @@
   }
 
   a {
-    background: linear-gradient(transparent 60%, #ff6 60%);
-    box-shadow: none;
-
-    &:hover, &:active, &:focus {
-      background: none;
-      color: #448cce;
-      box-shadow: none;
-    }
+    @include link();
   }
 
   strong {

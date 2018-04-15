@@ -548,13 +548,15 @@ body:not(.twentyseventeen-front-page) .site-content#content {
       border-bottom: none;
       padding: 0; }
       .site-footer .widget_nav_menu ul li a {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
+        background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
+        background: -o-linear-gradient(transparent 60%, #ff6 60%);
+        background: linear-gradient(transparent 60%, #ff6 60%);
         -webkit-box-shadow: none;
         box-shadow: none; }
         .site-footer .widget_nav_menu ul li a:hover, .site-footer .widget_nav_menu ul li a:active, .site-footer .widget_nav_menu ul li a:focus {
-          background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
-          background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
-          background: -o-linear-gradient(transparent 60%, #ff6 60%);
-          background: linear-gradient(transparent 60%, #ff6 60%);
+          background: none;
+          color: #448cce;
           -webkit-box-shadow: none;
           box-shadow: none; }
       .site-footer .widget_nav_menu ul li ul {
@@ -674,7 +676,18 @@ body:not(.twentyseventeen-front-page) .site-content#content {
         .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title::after {
           display: none; }
         .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a {
-          margin: 0 5px; }
+          margin: 0 5px;
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
+          background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
+          background: -o-linear-gradient(transparent 60%, #ff6 60%);
+          background: linear-gradient(transparent 60%, #ff6 60%);
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+          .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:hover, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:active, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:focus {
+            background: none;
+            color: #448cce;
+            -webkit-box-shadow: none;
+            box-shadow: none; }
     .twentyseventeen-panel:nth-child(3) .recent-posts .entry-summary {
       display: none; }
   .twentyseventeen-panel:nth-child(4) {

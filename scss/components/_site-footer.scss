@@ -143,12 +143,7 @@
         padding: 0;
 
         a {
-          box-shadow: none;
-
-          &:hover, &:active, &:focus {
-            background: linear-gradient(transparent 60%, #ff6 60%);
-            box-shadow: none;
-          }
+          @include link();
         }
 
         ul {

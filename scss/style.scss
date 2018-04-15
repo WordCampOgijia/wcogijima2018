@@ -3,6 +3,17 @@
 @import url(/wp-includes/css/dashicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
 
+@mixin link() {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+  box-shadow: none;
+
+  &:hover, &:active, &:focus {
+    background: none;
+    color: #448cce;
+    box-shadow: none;
+  }
+}
+
 html {
   font-size: 15px;
 

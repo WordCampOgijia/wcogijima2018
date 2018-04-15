@@ -126,6 +126,7 @@
 
           > a {
             margin: 0 5px;
+            @include link();
           }
         }
       }
