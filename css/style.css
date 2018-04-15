@@ -268,6 +268,12 @@ ul, ol {
       .link-sns__item a img {
         -webkit-box-shadow: none;
         box-shadow: none; }
+      @media screen and (min-width: 1024px) {
+        .link-sns__item a:hover, .link-sns__item a:active, .link-sns__item a:focus {
+          opacity: 0.7;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; } }
     .link-sns__item br, .link-sns__item p {
       display: none; }
     .link-sns__item__account {
@@ -504,6 +510,12 @@ ul, ol {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center; }
+        @media screen and (min-width: 1024px) {
+          .site-footer .wcb_widget_sponsors .sponsor-level .sponsor-logo:hover, .site-footer .wcb_widget_sponsors .sponsor-level .sponsor-logo:active, .site-footer .wcb_widget_sponsors .sponsor-level .sponsor-logo:focus {
+            opacity: 0.7;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
+            transition: .3s; } }
         .site-footer .wcb_widget_sponsors .sponsor-level .sponsor-logo::before {
           content: '';
           display: block;

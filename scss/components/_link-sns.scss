@@ -26,6 +26,13 @@
       img {
         box-shadow: none;
       }
+
+      &:hover, &:active, &:focus {
+        @media screen and (min-width: 1024px) {
+          opacity: 0.7;
+          transition: .3s;
+        }
+      }
     }
 
     br, p {
