@@ -591,16 +591,21 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   line-height: 1;
   padding: 2em 0 1.5em;
   text-align: center; }
-  .site-info::after {
-    content: "\f120";
-    color: #fff;
-    font-family: dashicons;
-    font-size: 25px; }
-    @media screen and (min-width: 1024px) {
-      .site-info::after {
-        font-size: 50px; } }
   .site-info > a {
-    display: none; }
+    margin: 0 auto;
+    display: block;
+    font-size: 0;
+    height: 25px;
+    width: 25px;
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+    @media screen and (min-width: 1024px) {
+      .site-info > a {
+        height: 50px;
+        width: 50px; } }
 
 body:not(.twentyseventeen-front-page) .site-info {
   position: relative; }
