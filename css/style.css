@@ -10,6 +10,9 @@ html {
   html[lang="ja"] textarea {
     font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro', Meiryo, sans-serif; }
 
+ul, ol {
+  margin-left: 2em; }
+
 #page #primary {
   float: none;
   width: auto; }
