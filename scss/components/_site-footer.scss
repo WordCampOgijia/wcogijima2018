@@ -1,6 +1,10 @@
 .site-footer {
-  margin-top: 20vw; // @todo
+  margin-top: 0;
   border-top: none;
+
+  body:not(.twentyseventeen-front-page) & {
+    margin-top: 20vw; // @todo
+  }
 
   .wrap {
     padding: 0;
