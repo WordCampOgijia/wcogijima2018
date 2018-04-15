@@ -137,6 +137,11 @@ ul, ol {
   color: #2f4d65;
   font-size: 25px; }
 
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  text-transform: none; }
+
 .entry-content {
   line-height: 1.7; }
   .entry-content > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) + :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {

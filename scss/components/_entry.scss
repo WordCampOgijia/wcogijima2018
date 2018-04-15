@@ -18,6 +18,12 @@
   }
 }
 
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  text-transform: none;
+}
+
 .entry-content {
   line-height: 1.7;
 
