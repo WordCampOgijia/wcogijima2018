@@ -50,7 +50,8 @@ body:not(.twentyseventeen-front-page) {
   &.has-header-video #masthead .custom-header {
     .custom-header-media {
       @media screen and (min-width: 48em) {
-        max-height: calc(83vh - 32px);;
+        max-height: calc(80vh - 32px);
+        top: -15vh;
       }
     }
   }
