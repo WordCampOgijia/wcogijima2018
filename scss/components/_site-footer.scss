@@ -1,5 +1,5 @@
 .site-footer {
-  margin-top: 0;
+  margin-top: 20vw; // @todo
   border-top: none;
 
   .wrap {
@@ -129,10 +129,6 @@
     border-top: 1px solid #bddfeb;
     padding: .5em 0;
     text-align: center;
-
-    body:not(.twentyseventeen-front-page) & {
-      margin-top: -36px; // @todo
-    }
 
     ul {
       li {

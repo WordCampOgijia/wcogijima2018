@@ -423,15 +423,8 @@ html {
       max-width: 1180px;
       padding: 0 100px; } }
 
-body:not(.twentyseventeen-front-page) .site-content#content {
-  background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-size: 25%;
-  padding-bottom: 25%; }
-
 .site-footer {
-  margin-top: 0;
+  margin-top: 20vw;
   border-top: none;
   /**
    * スポンサー
@@ -539,8 +532,6 @@ body:not(.twentyseventeen-front-page) .site-content#content {
     border-top: 1px solid #bddfeb;
     padding: .5em 0;
     text-align: center; }
-    body:not(.twentyseventeen-front-page) .site-footer .widget_nav_menu {
-      margin-top: -30px; }
     .site-footer .widget_nav_menu ul li {
       margin: 0 .5em;
       display: inline-block;
@@ -588,6 +579,20 @@ body:not(.twentyseventeen-front-page) .site-content#content {
         font-size: 50px; } }
   .site-info > a {
     display: none; }
+
+body:not(.twentyseventeen-front-page) .site-info {
+  position: relative; }
+  body:not(.twentyseventeen-front-page) .site-info::before {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    content: '';
+    display: block;
+    background-size: contain;
+    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
+    background-repeat: no-repeat;
+    height: 26.6vw;
+    width: 25vw; }
 
 .twentyseventeen-panel {
   /**
