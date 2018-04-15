@@ -51,7 +51,10 @@ body:not(.twentyseventeen-front-page) {
     .custom-header-media {
       @media screen and (min-width: 48em) {
         max-height: calc(80vh - 32px);
-        top: -15vh;
+
+        img {
+          top: -15vh;
+        }
       }
     }
   }

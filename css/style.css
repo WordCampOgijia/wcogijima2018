@@ -128,8 +128,12 @@ ul, ol {
   body:not(.twentyseventeen-front-page).has-header-video #masthead .custom-header .custom-header-media,
   body:not(.twentyseventeen-front-page).has-header-image #masthead .custom-header .custom-header-media,
   body:not(.twentyseventeen-front-page).has-header-video #masthead .custom-header .custom-header-media {
-    max-height: calc(80vh - 32px);
-    top: -15vh; } }
+    max-height: calc(80vh - 32px); }
+    body:not(.twentyseventeen-front-page).has-header-image #masthead .custom-header .custom-header-media img,
+    body:not(.twentyseventeen-front-page).has-header-video #masthead .custom-header .custom-header-media img,
+    body:not(.twentyseventeen-front-page).has-header-image #masthead .custom-header .custom-header-media img,
+    body:not(.twentyseventeen-front-page).has-header-video #masthead .custom-header .custom-header-media img {
+      top: -15vh; } }
 
 .post .entry-header .entry-meta,
 .page:not(.twentyseventeen-front-page) .entry-header .entry-meta {
