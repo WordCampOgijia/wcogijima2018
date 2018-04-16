@@ -98,6 +98,8 @@
     }
 
     .recent-posts {
+      max-width: 80%;
+
       @media screen and (min-width: 1024px) {
         max-width: 565px;
       }

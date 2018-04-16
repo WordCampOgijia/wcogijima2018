@@ -744,39 +744,41 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
         padding-right: 0;
         padding-left: 0;
         max-width: 840px; } }
-    @media screen and (min-width: 1024px) {
-      .twentyseventeen-panel:nth-child(3) .recent-posts {
-        max-width: 565px; } }
-    .twentyseventeen-panel:nth-child(3) .recent-posts .hentry {
-      margin-bottom: 15px; }
-    .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header {
-      margin-bottom: 0; }
-      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-date {
-        margin: 0 5px;
-        font-size: 12px;
-        font-weight: normal; }
-      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title {
-        border-bottom: 2px solid #80c3db;
-        font-size: 15px;
-        font-weight: normal;
-        padding: 0 0 15px; }
-        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title::after {
-          display: none; }
-        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a {
+    .twentyseventeen-panel:nth-child(3) .recent-posts {
+      max-width: 80%; }
+      @media screen and (min-width: 1024px) {
+        .twentyseventeen-panel:nth-child(3) .recent-posts {
+          max-width: 565px; } }
+      .twentyseventeen-panel:nth-child(3) .recent-posts .hentry {
+        margin-bottom: 15px; }
+      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header {
+        margin-bottom: 0; }
+        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-date {
           margin: 0 5px;
-          background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
-          background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
-          background: -o-linear-gradient(transparent 60%, #ff6 60%);
-          background: linear-gradient(transparent 60%, #ff6 60%);
-          -webkit-box-shadow: none;
-          box-shadow: none; }
-          .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:hover, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:active, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:focus {
-            background: none;
-            color: #448cce;
+          font-size: 12px;
+          font-weight: normal; }
+        .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title {
+          border-bottom: 2px solid #80c3db;
+          font-size: 15px;
+          font-weight: normal;
+          padding: 0 0 15px; }
+          .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title::after {
+            display: none; }
+          .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a {
+            margin: 0 5px;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff6));
+            background: -webkit-linear-gradient(transparent 60%, #ff6 60%);
+            background: -o-linear-gradient(transparent 60%, #ff6 60%);
+            background: linear-gradient(transparent 60%, #ff6 60%);
             -webkit-box-shadow: none;
             box-shadow: none; }
-    .twentyseventeen-panel:nth-child(3) .recent-posts .entry-summary {
-      display: none; }
+            .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:hover, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:active, .twentyseventeen-panel:nth-child(3) .recent-posts .entry-header .entry-title > a:focus {
+              background: none;
+              color: #448cce;
+              -webkit-box-shadow: none;
+              box-shadow: none; }
+      .twentyseventeen-panel:nth-child(3) .recent-posts .entry-summary {
+        display: none; }
   .twentyseventeen-panel:nth-child(4) {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg); }
     .twentyseventeen-panel:nth-child(4) .entry-header .entry-title {
