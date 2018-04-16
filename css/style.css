@@ -498,8 +498,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   /**
    * メニュー
    */ }
-  body:not(.twentyseventeen-front-page) .site-footer {
-    margin-top: 20vw; }
+  @media screen and (min-width: 40em) {
+    body:not(.twentyseventeen-front-page) .site-footer {
+      margin-top: 20vw; } }
   .site-footer .wrap {
     padding: 0; }
   .site-footer .widget-area {
@@ -659,19 +660,20 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
         height: 50px;
         width: 50px; } }
 
-body:not(.twentyseventeen-front-page) .site-info {
-  position: relative; }
-  body:not(.twentyseventeen-front-page) .site-info::before {
-    position: absolute;
-    bottom: 100%;
-    right: 0;
-    content: '';
-    display: block;
-    background-size: contain;
-    background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
-    background-repeat: no-repeat;
-    height: 26.6vw;
-    width: 25vw; }
+@media screen and (min-width: 40em) {
+  body:not(.twentyseventeen-front-page) .site-info {
+    position: relative; }
+    body:not(.twentyseventeen-front-page) .site-info::before {
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      content: '';
+      display: block;
+      background-size: contain;
+      background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
+      background-repeat: no-repeat;
+      height: 26.6vw;
+      width: 25vw; } }
 
 .twentyseventeen-panel {
   /**

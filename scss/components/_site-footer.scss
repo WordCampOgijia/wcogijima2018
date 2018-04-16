@@ -3,7 +3,9 @@
   border-top: none;
 
   body:not(.twentyseventeen-front-page) & {
-    margin-top: 20vw; // @todo
+    @media screen and (min-width: 40em) {
+      margin-top: 20vw; // @todo
+    }
   }
 
   .wrap {
