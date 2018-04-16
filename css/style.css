@@ -728,7 +728,8 @@ body:not(.twentyseventeen-front-page) .site-info {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    background-size: 25%; }
+    background-size: 25vw;
+    min-height: 27vw; }
     .twentyseventeen-panel:nth-child(3) .entry-header .entry-title::after {
       content: 'NEWS'; }
     @media screen and (min-width: 1024px) {
