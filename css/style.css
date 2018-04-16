@@ -400,6 +400,27 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
           .outline__info dt:not(:first-child) {
             margin-top: 2em; } }
 
+.block-fellytime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .block-fellytime th:not(:nth-of-type(2)),
+  .block-fellytime td:not(:nth-of-type(2)) {
+    width: 48%; }
+
+.fellytime-item {
+  -ms-flex-preferred-size: 48%;
+  flex-basis: 48%; }
+  .fellytime-item h4 {
+    margin: 1.5em 0 1em;
+    color: #2f4d65;
+    font-size: 19px;
+    border-left: 8px solid #5592ab;
+    padding: 0 0 0 .5em; }
+
 .post-navigation {
   border-top: 2px solid #7dc3dc; }
   .post-navigation .nav-links {
