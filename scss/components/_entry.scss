@@ -102,6 +102,23 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       }
     }
 
+    > table {
+      tr {
+        border-bottom: 1px solid #377590;
+      }
+
+      th {
+        background: #d3ebf5;
+        text-align: center;
+        padding: 10px;
+      }
+
+      td {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+
     > * {
       margin-top: 0;
       margin-bottom: 0;
