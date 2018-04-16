@@ -341,8 +341,12 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #241e1e;
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png);
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 0 100%;
     background-size: 115px auto; }
+    @media screen and (min-width: 40em) {
+      .navigation-top .menu > .current-menu-item > a,
+      .navigation-top .menu > .current_page_item > a {
+        background-position: 50% 100%; } }
     .navigation-top .menu > .current-menu-item > a[href*="#post-"],
     .navigation-top .menu > .current_page_item > a[href*="#post-"] {
       background: none;
@@ -454,7 +458,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   display: none; }
 
 .site-branding {
-  display: block; }
+  display: block;
+  height: auto !important; }
   .site-branding .site-title > a {
     display: block;
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/site-logo.png);
