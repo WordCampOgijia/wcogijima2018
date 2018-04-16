@@ -220,13 +220,13 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       @media screen and (min-width: 768px) {
         .entry-content > blockquote::before {
           left: 2rem; } }
-    .entry-content > blockquote > table tr {
+    .entry-content > blockquote table tr {
       border-bottom: 1px solid #377590; }
-    .entry-content > blockquote > table th {
+    .entry-content > blockquote table th {
       background: #d3ebf5;
       text-align: center;
       padding: 10px; }
-    .entry-content > blockquote > table td {
+    .entry-content > blockquote table td {
       text-align: center;
       padding: 10px; }
     .entry-content > blockquote > * {
