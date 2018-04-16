@@ -1,0 +1,18 @@
+.block-fellytime{
+  display: flex;
+  justify-content: space-between;
+  th:not(:nth-of-type(2)),
+  td:not(:nth-of-type(2)){
+    width: 48%;
+  }
+}
+.fellytime-item{
+  flex-basis: 48%;
+  h4{
+    margin: 1.5em 0 1em;
+    color: #2f4d65;
+    font-size: 19px;
+    border-left: 8px solid #5592ab;
+    padding: 0 0 0 .5em;
+  }
+}
