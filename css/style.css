@@ -434,6 +434,44 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     border-left: 8px solid #5592ab;
     padding: 0 0 0 .5em; }
 
+.table-sponsor td {
+  min-width: 100px; }
+
+.table-sponsor .font-s {
+  font-size: 90%; }
+
+.table-sponsor .cell-s {
+  width: 5%; }
+
+.table-sponsor .cell-m {
+  width: 24.5%; }
+
+.table-sponsor .cell-l {
+  width: 40%; }
+
+a.pushbutton-link {
+  display: inline-block;
+  background: #42809a;
+  border-bottom: 3px solid #ddd;
+  border-radius: 22px;
+  font-size: 15px;
+  padding: 1em 3em;
+  color: #fff;
+  font-weight: 800; }
+  a.pushbutton-link:hover {
+    color: #fff;
+    background-color: #304d64; }
+  a.pushbutton-link:active, a.pushbutton-link:focus {
+    color: #fff;
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    transform: translateY(3px);
+    border-bottom-color: transparent; }
+
+.scroll-x {
+  width: 100%;
+  overflow-x: scroll; }
+
 .post-navigation {
   border-top: 2px solid #7dc3dc; }
   .post-navigation .nav-links {
