@@ -1,7 +1,48 @@
 .table-sponsor{
-  td{
-    min-width: 100px;
+  h3{
+    margin: 1.5em 0 1em;
+    color: #3f809b;
+    padding: 0;
   }
+  &.pc{
+    display: none;
+  }
+  &.sp{
+    th{
+      vertical-align: top;
+      background: none;
+    }
+    td{
+      width: 50%;
+    }
+    th,td{
+      text-align: left;
+      // display: block;
+      padding: 3px 5px;
+      border-bottom: none;
+    }
+    tr{
+      border-bottom: 1px solid #eee;
+    }
+    tr:first-of-type{
+      background: #d3ebf5;
+      border-bottom: 1px solid #377590 ;
+    }
+    tr:last-of-type{
+      border-bottom: 1px solid #377590 ;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    &.sp{
+      display: none;
+    }
+    &.pc{
+      display: block;
+    }
+  }
+  // td{
+  //   min-width: 100px;
+  // }
   .font-s{
     font-size: 90%;
   }
