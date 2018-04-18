@@ -68,3 +68,16 @@
     display: none;
   }
 }
+// プレースホルダーの色を薄く
+::placeholder {
+  color: #aaa;
+}
+//親ページが /en/ の場合、フォームを無効化する overlay を 非表示に
+.parent-pageid-686{
+  .wcfd-disabled-form #wcorg-login-message {
+    display: none;
+  }
+  .wcfd-overlay {
+    display: none;
+  }
+}
