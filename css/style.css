@@ -75,6 +75,24 @@ ul, ol {
 .contact-form br {
   display: none; }
 
+::-webkit-input-placeholder {
+  color: #aaa; }
+
+:-ms-input-placeholder {
+  color: #aaa; }
+
+::-ms-input-placeholder {
+  color: #aaa; }
+
+::placeholder {
+  color: #aaa; }
+
+.parent-pageid-686 .wcfd-disabled-form #wcorg-login-message {
+  display: none; }
+
+.parent-pageid-686 .wcfd-overlay {
+  display: none; }
+
 .has-header-image #masthead .custom-header,
 .has-header-video #masthead .custom-header,
 .has-header-image #masthead .custom-header,
