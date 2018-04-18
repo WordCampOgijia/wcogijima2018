@@ -15,7 +15,10 @@ ul, ol {
 
 #page #primary {
   float: none;
-  width: auto; }
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  max-width: none; }
 
 #page #secondary {
   display: none; }
@@ -559,6 +562,12 @@ a.pushbutton-link {
   body:not(.twentyseventeen-front-page) .site-branding .site-title > a {
     width: 370px;
     height: 212px; } }
+
+.site-content {
+  margin: 0 auto;
+  max-width: 740px; }
+  .twentyseventeen-front-page .site-content {
+    max-width: none; }
 
 .site-footer {
   margin-top: 0;

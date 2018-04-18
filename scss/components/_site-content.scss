@@ -1,0 +1,8 @@
+.site-content {
+  margin: 0 auto;
+  max-width: 740px;
+
+  .twentyseventeen-front-page & {
+    max-width: none;
+  }
+}
