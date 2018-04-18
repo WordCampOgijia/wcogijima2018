@@ -15,10 +15,7 @@ ul, ol {
 
 #page #primary {
   float: none;
-  margin-right: auto;
-  margin-left: auto;
-  width: auto;
-  max-width: none; }
+  width: auto; }
 
 #page #secondary {
   display: none; }
@@ -74,6 +71,9 @@ ul, ol {
       -ms-transform: translateY(3px);
       transform: translateY(3px);
       border-bottom-color: transparent; } }
+
+.contact-form br {
+  display: none; }
 
 .has-header-image #masthead .custom-header,
 .has-header-video #masthead .custom-header,
@@ -562,12 +562,6 @@ a.pushbutton-link {
   body:not(.twentyseventeen-front-page) .site-branding .site-title > a {
     width: 370px;
     height: 212px; } }
-
-.site-content {
-  margin: 0 auto;
-  max-width: 740px; }
-  .twentyseventeen-front-page .site-content {
-    max-width: none; }
 
 .site-footer {
   margin-top: 0;
