@@ -269,6 +269,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       color: #448cce;
       -webkit-box-shadow: none;
       box-shadow: none; }
+  .entry-content .notice {
+    color: #cf3328;
+    font-weight: bold; }
 
 .link-sns {
   margin: 0;
@@ -525,6 +528,9 @@ a.pushbutton-link {
 .scroll-x {
   width: 100%;
   overflow-x: scroll; }
+
+.finished {
+  background: #ddd !important; }
 
 .post-navigation {
   border-top: 2px solid #7dc3dc; }
