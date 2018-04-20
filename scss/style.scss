@@ -34,7 +34,10 @@ ul, ol {
 
 #page #primary {
   float: none;
+  margin-right: auto;
+  margin-left: auto;
   width: auto;
+  max-width: none;
 }
 
 #page #secondary {
