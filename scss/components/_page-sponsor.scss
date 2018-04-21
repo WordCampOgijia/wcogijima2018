@@ -1,0 +1,16 @@
+body.page-slug-sponsors{
+  .site-content{
+    display: none;
+  }
+  @media screen and (min-width: 40em){
+    .site-footer{
+      margin-top: 0 !important;
+     .wcb_widget_sponsors{
+        margin-bottom: 20vw;
+        .widget-title::after{
+          display: none;
+        }
+      }
+    }
+  }
+}

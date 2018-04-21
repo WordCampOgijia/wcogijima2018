@@ -15,7 +15,10 @@ ul, ol {
 
 #page #primary {
   float: none;
-  width: auto; }
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  max-width: none; }
 
 #page #secondary {
   display: none; }
@@ -532,6 +535,17 @@ a.pushbutton-link {
 .finished {
   background: #ddd !important; }
 
+body.page-slug-sponsors .site-content {
+  display: none; }
+
+@media screen and (min-width: 40em) {
+  body.page-slug-sponsors .site-footer {
+    margin-top: 0 !important; }
+    body.page-slug-sponsors .site-footer .wcb_widget_sponsors {
+      margin-bottom: 20vw; }
+      body.page-slug-sponsors .site-footer .wcb_widget_sponsors .widget-title::after {
+        display: none; } }
+
 .post-navigation {
   border-top: 2px solid #7dc3dc; }
   .post-navigation .nav-links {
@@ -587,6 +601,12 @@ a.pushbutton-link {
     width: 370px;
     height: 212px; } }
 
+.site-content {
+  margin: 0 auto;
+  max-width: 740px; }
+  .twentyseventeen-front-page .site-content {
+    max-width: none; }
+
 .site-footer {
   margin-top: 0;
   border-top: none;
@@ -617,7 +637,7 @@ a.pushbutton-link {
       .site-footer .wcb_widget_sponsors {
         padding: 6em 0;
         max-width: 840px; } }
-    body:not(.twentyseventeen-front-page) .site-footer .wcb_widget_sponsors {
+    body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb_widget_sponsors {
       display: none; }
     .site-footer .wcb_widget_sponsors .widget-title {
       margin: 0;
@@ -686,19 +706,19 @@ a.pushbutton-link {
           border: 10px solid transparent;
           -o-object-fit: contain;
           object-fit: contain; }
-      .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(1) .sponsor-logo, .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(2) .sponsor-logo {
+      .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(1) .sponsor-logo {
         -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
         flex: 0 1 50%; }
         @media screen and (min-width: 768px) {
-          .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(1) .sponsor-logo img, .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(2) .sponsor-logo img {
+          .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(1) .sponsor-logo img {
             border-width: 50px 25px; } }
-      .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n + 3) .sponsor-logo {
+      .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n + 2) .sponsor-logo {
         -webkit-box-flex: 0;
         -ms-flex: 0 1 33%;
         flex: 0 1 33%; }
         @media screen and (min-width: 768px) {
-          .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n + 3) .sponsor-logo img {
+          .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n + 2) .sponsor-logo img {
             border-width: 40px 40px; } }
   .site-footer .widget_nav_menu {
     margin: 0 calc(50% - 50vw);

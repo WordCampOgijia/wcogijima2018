@@ -38,7 +38,7 @@
       max-width: 840px;
     }
 
-    body:not(.twentyseventeen-front-page) & {
+    body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) &{
       display: none;
     }
 
@@ -107,8 +107,7 @@
         }
       }
 
-      &:nth-of-type(1),
-      &:nth-of-type(2) {
+      &:nth-of-type(1){
         .sponsor-logo {
           flex:0 1 50%;
 
@@ -120,7 +119,7 @@
         }
       }
 
-      &:nth-of-type(n + 3) {
+      &:nth-of-type(n + 2){
         .sponsor-logo {
           flex:0 1 33%;
 
