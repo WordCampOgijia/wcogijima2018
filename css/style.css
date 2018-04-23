@@ -272,6 +272,11 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       color: #448cce;
       -webkit-box-shadow: none;
       box-shadow: none; }
+    .entry-content a img:hover {
+      opacity: .7;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
   .entry-content .notice {
     color: #cf3328;
     font-weight: bold; }
@@ -545,6 +550,14 @@ body.page-slug-sponsors .site-content {
       margin-bottom: 20vw; }
       body.page-slug-sponsors .site-footer .wcb_widget_sponsors .widget-title::after {
         display: none; } }
+
+.site-footer .wcb_widget_sponsors .sponsor-level.ogijimaspecial a {
+  display: none !important; }
+
+.site-footer .wcb_widget_sponsors .sponsor-level.boattaxi .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.beverage .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.foods .sponsor-level-title {
+  margin-top: 1em;
+  font-size: 16px;
+  color: #3f809b; }
 
 .post-navigation {
   border-top: 2px solid #7dc3dc; }

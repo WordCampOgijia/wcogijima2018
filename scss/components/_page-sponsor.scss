@@ -14,3 +14,17 @@ body.page-slug-sponsors{
     }
   }
 }
+.site-footer .wcb_widget_sponsors .sponsor-level{
+  &.ogijimaspecial{
+    a{
+      display: none !important;
+    }
+  }
+  &.boattaxi,&.beverage,&.foods{
+    .sponsor-level-title{
+        margin-top: 1em;
+        font-size: 16px;
+        color: #3f809b;
+    }
+  }
+}
