@@ -135,8 +135,20 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 
   a {
     @include link();
+    img{
+      &:hover{
+        opacity: .7;
+        transition: .3s;
+      }
+    }
   }
 
   strong {
   }
+
+  .notice{
+    color: #cf3328;
+    font-weight: bold;
+  }
 }
+
