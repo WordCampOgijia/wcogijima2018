@@ -7,25 +7,29 @@
   padding: 2em 0 1.5em;
   text-align: center;
 
+  > a{
+    margin: 0 auto;
+    display: block;
+    box-shadow: none !important;
+  }
+
   > .privacy-policy-link{
     font-size: 13px;
     color: #3f809b;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em !important;
+    text-decoration: none;
     + span{
       display: none;
     }
   }
 
   > .imprint {
-    margin: 0 auto;
-    display: block;
     font-size: 0;
     height: 25px;
     width: 25px;
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wp.png);
     background-repeat: no-repeat;
     background-size: contain;
-    box-shadow: none !important;
 
     @media screen and (min-width: 1024px) {
       height: 50px;

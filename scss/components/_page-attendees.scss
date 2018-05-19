@@ -1,18 +1,18 @@
 .tix-attendee-list{
   li {
-    width: 100%;
+    width: 100% !important;
   }
   img{
     margin-right: 1em;
   }
   a{
-    display: inline-block;
+    display: inline-block !important;
     margin-right: 1em;
   }
 }
 @media screen and (min-width: 48em) {
   .tix-attendee-list li {
-    width: 50%;
+    width: 50% !important;
   }
 }
 
