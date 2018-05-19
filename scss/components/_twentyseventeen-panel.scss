@@ -14,9 +14,17 @@
   }
 
   /**
-   * 開催概要
+   * 固定のダミー記事
    */
   &:first-child {
+    display: none;
+  }
+
+  /**
+   * 開催概要
+   */
+  // &:first-child {
+  &:nth-child(3){
     .panel-image {
       display: none;
     }
@@ -39,7 +47,8 @@
   /**
    * 夜キャンプ
    */
-  &:nth-child(2) {
+  // &:nth-child(2) {
+  &:nth-child(4) {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/night-camp.jpg);
     background-size: cover;
     background-position: 50% 0;
@@ -76,7 +85,8 @@
   /**
    * お知らせ
    */
-  &:nth-child(3) {
+  // &:nth-child(3) {
+  &:nth-child(2) {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -143,7 +153,8 @@
   /**
    * Follow me!
    */
-  &:nth-child(4) {
+  // &:nth-child(4) {
+  &:nth-child(5) {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/bg.jpg);
 
     .entry-header {
