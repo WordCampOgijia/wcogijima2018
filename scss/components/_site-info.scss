@@ -7,7 +7,16 @@
   padding: 2em 0 1.5em;
   text-align: center;
 
-  > a {
+  > .privacy-policy-link{
+    font-size: 13px;
+    color: #3f809b;
+    margin-bottom: 1.5em;
+    + span{
+      display: none;
+    }
+  }
+
+  > .imprint {
     margin: 0 auto;
     display: block;
     font-size: 0;

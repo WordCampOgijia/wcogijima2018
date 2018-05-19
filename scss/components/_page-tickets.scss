@@ -1,0 +1,40 @@
+.entry-content {
+  .tix_tickets_table td {
+    text-align: left;
+  }
+}
+.tix-column-remaining {
+  width: 12%;
+  text-align: center !important;
+}
+.tix-js {
+  padding-top: 0 !important;
+  input[type="submit"] {
+    background-color: #42809a;
+    border-bottom: 3px solid #ddd;
+    border-radius: 22px;
+    font-size: 15px;
+    padding: 1em 3em;
+    &:hover{
+      background-color: #304d64;
+    }
+    &:active{
+      transform: translateY(3px);
+    }
+  }
+}
+
+#tix-coupon-link {
+  display: inline-block;
+  background: #d8eef6;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: .6em 2em;
+  color: #3f809b;
+  font-weight: bold;
+  &:hover{
+    opacity: .7;
+    transition: .3s;
+  }
+}
+
