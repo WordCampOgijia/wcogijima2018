@@ -14,10 +14,25 @@
   }
 
   /**
-   * 固定のダミー記事
+   * チケット状況
    */
+  // &:first-child {
+  //   display: none;
+  // }
   &:first-child {
-    display: none;
+    @media screen and (min-width: 1024px){
+      .panel-content .wrap{
+        padding-top: 1em;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 840px;
+      }
+    }
+    @media screen and (min-width: 30em){
+      .panel-content .wrap{
+        padding-top: 0;
+      }
+    }
   }
 
   /**
