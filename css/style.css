@@ -578,40 +578,41 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #fff;
     font-weight: bold; }
 
-.page-slug-news .site-content {
+.page-slug-news .site-content, .category .site-content {
   max-width: 1000px; }
 
-.page-slug-news .page-title {
+.page-slug-news .page-title, .category .page-title {
   margin: 0;
   color: #2f4d65;
   font-size: 25px; }
 
 @media screen and (min-width: 48em) {
-  .page-slug-news #page #primary {
+  .page-slug-news #page #primary, .category #page #primary {
     float: left;
     width: 70%;
     border-right: 1px solid #ddd;
     padding-right: 4%; } }
 
-.page-slug-news #page #secondary {
+.page-slug-news #page #secondary, .category #page #secondary {
   display: block;
   border-top: 1px solid #ddd; }
   @media screen and (min-width: 48em) {
-    .page-slug-news #page #secondary {
+    .page-slug-news #page #secondary, .category #page #secondary {
       border-top: 0;
       width: 28%;
       position: relative;
       top: -.5rem;
       padding-left: 2%; } }
 
-.page-slug-news .widget-title {
+.page-slug-news .widget-title, .category .widget-title {
   margin: 1.5em 0 0;
   color: #3f809b;
   padding: 0;
   font-size: 20px; }
 
 .page-slug-news .widget_categories ul,
-.page-slug-news .widget_recent_entries ul {
+.page-slug-news .widget_recent_entries ul, .category .widget_categories ul,
+.category .widget_recent_entries ul {
   margin: 0;
   float: right;
   width: 100%;
@@ -620,7 +621,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   position: relative;
   z-index: 0; }
   .page-slug-news .widget_categories ul::before,
-  .page-slug-news .widget_recent_entries ul::before {
+  .page-slug-news .widget_recent_entries ul::before, .category .widget_categories ul::before,
+  .category .widget_recent_entries ul::before {
     display: block;
     position: absolute;
     top: 0;
@@ -631,13 +633,15 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     background-color: rgba(255, 255, 255, 0.4);
     z-index: 1; }
   .page-slug-news .widget_categories ul li,
-  .page-slug-news .widget_recent_entries ul li {
+  .page-slug-news .widget_recent_entries ul li, .category .widget_categories ul li,
+  .category .widget_recent_entries ul li {
     position: relative;
     border: 0;
     list-style-type: disc;
     z-index: 2; }
     .page-slug-news .widget_categories ul li a,
-    .page-slug-news .widget_recent_entries ul li a {
+    .page-slug-news .widget_recent_entries ul li a, .category .widget_categories ul li a,
+    .category .widget_recent_entries ul li a {
       -webkit-box-shadow: none;
       box-shadow: none;
       background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0, #ff6));
@@ -645,7 +649,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       background: -o-linear-gradient(transparent 60%, #ff6 0);
       background: linear-gradient(transparent 60%, #ff6 0); }
       .page-slug-news .widget_categories ul li a:hover,
-      .page-slug-news .widget_recent_entries ul li a:hover {
+      .page-slug-news .widget_recent_entries ul li a:hover, .category .widget_categories ul li a:hover,
+      .category .widget_recent_entries ul li a:hover {
         background: none;
         color: #448cce; }
 
