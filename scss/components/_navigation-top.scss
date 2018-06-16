@@ -29,6 +29,7 @@
   @media screen and (min-width: 48em) {
     .menu{
       display: flex !important;
+      flex-wrap: wrap;
     }
   }
 
@@ -99,3 +100,18 @@
     display: none;
   }
 }
+
+// 参加登録ボタン
+#menu-item-2113 {
+  a {
+    color: #fff;
+    background: #db4b0e;
+    border-radius: 20px;
+    text-align: center;
+  }
+  @media screen and (min-width: 48em) {
+    margin-left: auto;
+  }
+}
+
+

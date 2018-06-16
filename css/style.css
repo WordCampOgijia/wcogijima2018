@@ -398,7 +398,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     .navigation-top .menu {
       display: -webkit-box !important;
       display: -ms-flexbox !important;
-      display: flex !important; } }
+      display: flex !important;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
   .navigation-top .menu > .current-menu-item > a,
   .navigation-top .menu > .current_page_item > a {
     color: #241e1e;
@@ -446,6 +448,16 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
               border-radius: 100%; } }
   .navigation-top .menu-scroll-down {
     display: none; }
+
+#menu-item-2113 a {
+  color: #fff;
+  background: #db4b0e;
+  border-radius: 20px;
+  text-align: center; }
+
+@media screen and (min-width: 48em) {
+  #menu-item-2113 {
+    margin-left: auto; } }
 
 .outline {
   overflow: hidden; }
@@ -516,7 +528,19 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     width: 50% !important; } }
 
 #tix-attendees .tix-field {
-  margin-left: 0; }
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #tix-attendees .tix-field .tix-first {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+  #tix-attendees .tix-field .tix-last {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-right: .5em; }
 
 .attendees-nav {
   display: -webkit-box;
@@ -553,6 +577,77 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: .6em 2em;
     color: #fff;
     font-weight: bold; }
+
+.page-slug-news .site-content {
+  max-width: 1000px; }
+
+.page-slug-news .page-title {
+  margin: 0;
+  color: #2f4d65;
+  font-size: 25px; }
+
+@media screen and (min-width: 48em) {
+  .page-slug-news #page #primary {
+    float: left;
+    width: 70%;
+    border-right: 1px solid #ddd;
+    padding-right: 4%; } }
+
+.page-slug-news #page #secondary {
+  display: block;
+  border-top: 1px solid #ddd; }
+  @media screen and (min-width: 48em) {
+    .page-slug-news #page #secondary {
+      border-top: 0;
+      width: 28%;
+      position: relative;
+      top: -.5rem;
+      padding-left: 2%; } }
+
+.page-slug-news .widget-title {
+  margin: 1.5em 0 0;
+  color: #3f809b;
+  padding: 0;
+  font-size: 20px; }
+
+.page-slug-news .widget_categories ul,
+.page-slug-news .widget_recent_entries ul {
+  margin: 0;
+  float: right;
+  width: 100%;
+  padding: 2em;
+  border-radius: 5px;
+  position: relative;
+  z-index: 0; }
+  .page-slug-news .widget_categories ul::before,
+  .page-slug-news .widget_recent_entries ul::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1; }
+  .page-slug-news .widget_categories ul li,
+  .page-slug-news .widget_recent_entries ul li {
+    position: relative;
+    border: 0;
+    list-style-type: disc;
+    z-index: 2; }
+    .page-slug-news .widget_categories ul li a,
+    .page-slug-news .widget_recent_entries ul li a {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0, #ff6));
+      background: -webkit-linear-gradient(transparent 60%, #ff6 0);
+      background: -o-linear-gradient(transparent 60%, #ff6 0);
+      background: linear-gradient(transparent 60%, #ff6 0); }
+      .page-slug-news .widget_categories ul li a:hover,
+      .page-slug-news .widget_recent_entries ul li a:hover {
+        background: none;
+        color: #448cce; }
 
 @media screen and (min-width: 48em) {
   .page-slug-organizers .entry-header {
@@ -595,6 +690,19 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     display: flex; }
     .organizer__link a {
       margin-right: 1em; } }
+
+.search .page-title {
+  margin: 0;
+  color: #2f4d65;
+  font-size: 25px; }
+
+.search-field {
+  border-radius: 5px; }
+
+.search-submit {
+  background: #42809a;
+  color: #fff;
+  border-radius: 6px; }
 
 .table-sponsor h3 {
   margin: 1.5em 0 1em;
@@ -684,7 +792,7 @@ body.page-slug-sponsors .site-content {
 .site-footer .wcb_widget_sponsors .sponsor-level.ogijimaspecial a {
   display: none !important; }
 
-.site-footer .wcb_widget_sponsors .sponsor-level.boattaxi .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.beverage .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.foods .sponsor-level-title {
+.site-footer .wcb_widget_sponsors .sponsor-level.boattaxi .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.beverage .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.foods .sponsor-level-title, .site-footer .wcb_widget_sponsors .sponsor-level.nursery .sponsor-level-title {
   margin-top: 1em;
   font-size: 16px;
   color: #3f809b; }
@@ -1048,6 +1156,12 @@ body.page-slug-sponsors .site-content {
         .twentyseventeen-panel:nth-child(4) .panel-content .wrap .entry-title,
         .twentyseventeen-panel:nth-child(4) .panel-content .wrap .entry-content {
           color: #fff; }
+        .twentyseventeen-panel:nth-child(4) .panel-content .wrap a {
+          color: #fff;
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(0%, #ff6));
+          background: -webkit-linear-gradient(transparent 90%, #ff6 0%);
+          background: -o-linear-gradient(transparent 90%, #ff6 0%);
+          background: linear-gradient(transparent 90%, #ff6 0%); }
   .twentyseventeen-panel:nth-child(2) {
     background-image: url(https://2018.ogijima.wordcamp.org/files/2018/04/wapuu.png);
     background-repeat: no-repeat;

@@ -1,0 +1,17 @@
+.search{
+  .page-title{
+    margin: 0;
+    color: #2f4d65;
+    font-size: 25px;
+  }
+}
+.search{
+  &-field{
+    border-radius: 5px;
+  }
+  &-submit{
+    background: #42809a;
+    color: #fff;
+    border-radius: 6px;
+  }
+}

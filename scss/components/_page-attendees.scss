@@ -19,6 +19,14 @@
 #tix-attendees {
   .tix-field{
     margin-left: 0;
+    display: flex;
+    .tix-first{
+      order: 2;
+    }
+    .tix-last {
+      order: 1;
+      margin-right: .5em;
+    }
   }
 }
 
