@@ -1,0 +1,191 @@
+.entry-content{
+  .wcpt-schedule{
+    th,tr {
+      border-bottom: 1px solid #377590;
+    }
+    td{
+      padding: 15px;
+      text-align: left;
+    }
+  }
+  .wcpt-time{
+    background: #d3ebf5;
+  }
+}
+
+// Timtable SessioTime
+.wcpt-time-1130 td:first-of-type,
+.wcpt-time-1150 td:first-of-type,
+.wcpt-time-1340 td:first-of-type,
+.wcpt-time-1355 td:first-of-type,
+.wcpt-time-1410 td:first-of-type,
+.wcpt-time-1440 td:first-of-type,
+.wcpt-time-1500 td:first-of-type,
+.wcpt-time-1540 td:first-of-type,
+.wcpt-time-1555 td:first-of-type,
+.wcpt-time-1600 td:first-of-type {
+  background: #b3def0;
+}
+
+// Timtable Title Session
+.wcpt-col-track:nth-of-type(2),
+.entry-content .color-session {
+  background: #db4b0e;
+  color: #fff;
+}
+// Timtable Title Kids
+.wcpt-col-track:nth-of-type(3),
+.wcpt-col-track:nth-of-type(4),
+.entry-content .color-kids {
+  background: #f7b72f;
+  color: #fff;
+}
+.wcb-track-kidschildcare {
+  min-width: 7em;
+}
+
+// Timtable Background Border Icon
+.wcpt-session-type-session,
+.wcpt-time-1600 td:nth-of-type(2) {
+  background: #fbf0f0;
+}
+.wcb-track-kidschildcare {
+  background: #fff5df;
+}
+.wcpt-schedule td:nth-of-type(3),
+.wcpt-schedule td:nth-of-type(4),
+.entry-content .color-kids-light {
+  background: #fff5df;
+}
+.wcb-session-3198,
+.wcpt-time-1225 td:nth-of-type(3),
+.wcpt-time-1000 td:nth-of-type(4),
+.wcpt-time-1225 td:nth-of-type(4),
+.wcpt-time-1600 td:nth-of-type(4),
+.wcpt-time-1620 td:nth-of-type(4),
+.wcpt-time-1630 td:nth-of-type(4),
+.entry-content .fav-session-button {
+  background: none;
+}
+.wcpt-session-empty,
+.wcb-session-childcare1,
+.wcpt-time-1220 td:nth-of-type(2),
+.wcpt-time-1555 td:nth-of-type(2),
+.wcpt-time-1000 td:nth-of-type(3),
+.wcpt-time-1330 td:nth-of-type(3),
+.wcpt-time-1120 td:nth-of-type(4),
+.wcpt-time-1150 td:nth-of-type(4),
+.wcpt-time-1330 td:nth-of-type(4),
+.wcpt-time-1500 td:nth-of-type(3),
+.wcpt-time-1600 td:nth-of-type(4) {
+  border-bottom: 1px solid transparent;
+}
+
+.wcpt-time-1000 td:nth-of-type(2),
+.wcpt-time-1330 td:nth-of-type(2),
+.wcpt-time-1220 td:nth-of-type(3),
+.wcpt-time-1440 td:nth-of-type(3),
+.wcpt-time-1600 td:nth-of-type(2),
+.wcpt-time-1630 td:nth-of-type(3),
+.wcpt-time-1000 td:nth-of-type(4),
+.wcpt-time-1220 td:nth-of-type(4),
+.wcpt-time-1225 td:nth-of-type(4),
+.wcpt-time-1555 td:nth-of-type(4),
+.wcpt-schedule tr:last-of-type td {
+  border-bottom: 1px solid #377590;
+}
+.wcpt-time-1225 td:nth-of-type(3) .wcb-session-favourite-icon,
+.wcpt-time-1630 td:nth-of-type(2) .wcb-session-favourite-icon,
+.wcpt-time-1600 td:nth-of-type(4) .wcb-session-favourite-icon {
+  display: none;
+}
+div.wcb-session-favourite-icon a.fav-session-button:hover,
+#content a.fav-session-button:hover,
+td.wcb-favourite-session a.fav-session-button {
+  color: #247277;
+}
+// Timtable Speaker
+.wcpt-session-speakers {
+  display: block;
+  margin-top: 1em;
+  &:before{
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 19px;
+    background: url('https://2018.ogijima.wordcamp.org/files/2018/06/icon_speaker.png') center center no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .wcpt-schedule-sp {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wcpt-time-1000,
+  .wcpt-time-1015,
+  .wcpt-time-1225,
+  .wcpt-time-1330,
+  .wcpt-time-1600,
+  .wcpt-session-empty,
+  .wcpt-session-type-session:before,
+  .wcb-track-kidschildcare,
+  .wcpt-time-1120 td:nth-of-type(4),
+  .wcpt-time-1340 td:nth-of-type(4) {
+    display: none !important;
+  }
+  .entry-content{
+    .wcpt-schedule{
+      margin-top: 0 !important;
+      tr,td {
+        margin-bottom: 0;
+      }
+      tr{
+        border: 0;
+      }
+      td{
+        padding: 10px 15px 15px;
+      }
+    }
+  }
+  .wcpt-session-title {
+    display: inline;
+  }
+  span.wcpt-session-speakers:before {
+    content: '';
+  }
+
+  .wcpt-schedule-session {
+    margin-bottom: 0;
+    border-bottom: 0 !important;
+  }
+  .wcpt-time {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  .wcpt-session-title {
+    padding: 3px;
+  }
+  .wcpt-session-speakers {
+    padding-left: 10px !important;
+    margin-top: .5em;
+  }
+  .entry-content {
+    .wcpt-schedule-sp {
+      border-top: 2px solid #377590;
+      border-bottom: 2px solid #377590;
+      th{
+        font-size: 1.125rem;
+      }
+      th:not(.color-kids),td{
+        text-align: left !important;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

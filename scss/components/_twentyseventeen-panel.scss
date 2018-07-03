@@ -212,10 +212,6 @@
    * スポンサー
    */
   &:nth-child(5) {
-    .entry-header .entry-title::after {
-      content: 'SPONSORS';
-    }
-
     .panel-content {
       .wrap {
         @media screen and (min-width: 1024px) {

@@ -703,6 +703,162 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     .organizer__link a {
       margin-right: 1em; } }
 
+.entry-content .wcpt-schedule th, .entry-content .wcpt-schedule tr {
+  border-bottom: 1px solid #377590; }
+
+.entry-content .wcpt-schedule td {
+  padding: 15px;
+  text-align: left; }
+
+.entry-content .wcpt-time {
+  background: #d3ebf5; }
+
+.wcpt-time-1130 td:first-of-type,
+.wcpt-time-1150 td:first-of-type,
+.wcpt-time-1340 td:first-of-type,
+.wcpt-time-1355 td:first-of-type,
+.wcpt-time-1410 td:first-of-type,
+.wcpt-time-1440 td:first-of-type,
+.wcpt-time-1500 td:first-of-type,
+.wcpt-time-1540 td:first-of-type,
+.wcpt-time-1555 td:first-of-type,
+.wcpt-time-1600 td:first-of-type {
+  background: #b3def0; }
+
+.wcpt-col-track:nth-of-type(2),
+.entry-content .color-session {
+  background: #db4b0e;
+  color: #fff; }
+
+.wcpt-col-track:nth-of-type(3),
+.wcpt-col-track:nth-of-type(4),
+.entry-content .color-kids {
+  background: #f7b72f;
+  color: #fff; }
+
+.wcb-track-kidschildcare {
+  min-width: 7em; }
+
+.wcpt-session-type-session,
+.wcpt-time-1600 td:nth-of-type(2) {
+  background: #fbf0f0; }
+
+.wcb-track-kidschildcare {
+  background: #fff5df; }
+
+.wcpt-schedule td:nth-of-type(3),
+.wcpt-schedule td:nth-of-type(4),
+.entry-content .color-kids-light {
+  background: #fff5df; }
+
+.wcb-session-3198,
+.wcpt-time-1225 td:nth-of-type(3),
+.wcpt-time-1000 td:nth-of-type(4),
+.wcpt-time-1225 td:nth-of-type(4),
+.wcpt-time-1600 td:nth-of-type(4),
+.wcpt-time-1620 td:nth-of-type(4),
+.wcpt-time-1630 td:nth-of-type(4),
+.entry-content .fav-session-button {
+  background: none; }
+
+.wcpt-session-empty,
+.wcb-session-childcare1,
+.wcpt-time-1220 td:nth-of-type(2),
+.wcpt-time-1555 td:nth-of-type(2),
+.wcpt-time-1000 td:nth-of-type(3),
+.wcpt-time-1330 td:nth-of-type(3),
+.wcpt-time-1120 td:nth-of-type(4),
+.wcpt-time-1150 td:nth-of-type(4),
+.wcpt-time-1330 td:nth-of-type(4),
+.wcpt-time-1500 td:nth-of-type(3),
+.wcpt-time-1600 td:nth-of-type(4) {
+  border-bottom: 1px solid transparent; }
+
+.wcpt-time-1000 td:nth-of-type(2),
+.wcpt-time-1330 td:nth-of-type(2),
+.wcpt-time-1220 td:nth-of-type(3),
+.wcpt-time-1440 td:nth-of-type(3),
+.wcpt-time-1600 td:nth-of-type(2),
+.wcpt-time-1630 td:nth-of-type(3),
+.wcpt-time-1000 td:nth-of-type(4),
+.wcpt-time-1220 td:nth-of-type(4),
+.wcpt-time-1225 td:nth-of-type(4),
+.wcpt-time-1555 td:nth-of-type(4),
+.wcpt-schedule tr:last-of-type td {
+  border-bottom: 1px solid #377590; }
+
+.wcpt-time-1225 td:nth-of-type(3) .wcb-session-favourite-icon,
+.wcpt-time-1630 td:nth-of-type(2) .wcb-session-favourite-icon,
+.wcpt-time-1600 td:nth-of-type(4) .wcb-session-favourite-icon {
+  display: none; }
+
+div.wcb-session-favourite-icon a.fav-session-button:hover,
+#content a.fav-session-button:hover,
+td.wcb-favourite-session a.fav-session-button {
+  color: #247277; }
+
+.wcpt-session-speakers {
+  display: block;
+  margin-top: 1em; }
+  .wcpt-session-speakers:before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 19px;
+    background: url("https://2018.ogijima.wordcamp.org/files/2018/06/icon_speaker.png") center center no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    position: relative;
+    top: 4px; }
+
+@media screen and (min-width: 701px) {
+  .wcpt-schedule-sp {
+    display: none; } }
+
+@media screen and (max-width: 700px) {
+  .wcpt-time-1000,
+  .wcpt-time-1015,
+  .wcpt-time-1225,
+  .wcpt-time-1330,
+  .wcpt-time-1600,
+  .wcpt-session-empty,
+  .wcpt-session-type-session:before,
+  .wcb-track-kidschildcare,
+  .wcpt-time-1120 td:nth-of-type(4),
+  .wcpt-time-1340 td:nth-of-type(4) {
+    display: none !important; }
+  .entry-content .wcpt-schedule {
+    margin-top: 0 !important; }
+    .entry-content .wcpt-schedule tr, .entry-content .wcpt-schedule td {
+      margin-bottom: 0; }
+    .entry-content .wcpt-schedule tr {
+      border: 0; }
+    .entry-content .wcpt-schedule td {
+      padding: 10px 15px 15px; }
+  .wcpt-session-title {
+    display: inline; }
+  span.wcpt-session-speakers:before {
+    content: ''; }
+  .wcpt-schedule-session {
+    margin-bottom: 0;
+    border-bottom: 0 !important; }
+  .wcpt-time {
+    font-size: 1.125rem;
+    font-weight: bold; }
+  .wcpt-session-title {
+    padding: 3px; }
+  .wcpt-session-speakers {
+    padding-left: 10px !important;
+    margin-top: .5em; }
+  .entry-content .wcpt-schedule-sp {
+    border-top: 2px solid #377590;
+    border-bottom: 2px solid #377590; }
+    .entry-content .wcpt-schedule-sp th {
+      font-size: 1.125rem; }
+    .entry-content .wcpt-schedule-sp th:not(.color-kids), .entry-content .wcpt-schedule-sp td {
+      text-align: left !important;
+      padding: 10px 15px; } }
+
 .search .page-title {
   margin: 0;
   color: #2f4d65;
@@ -715,6 +871,74 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   background: #42809a;
   color: #fff;
   border-radius: 6px; }
+
+.wcorg-session,
+.wcorg-speaker {
+  clear: both;
+  margin-bottom: -3em;
+  padding-top: 7em; }
+  .wcorg-session::after,
+  .wcorg-speaker::after {
+    display: block;
+    content: '';
+    clear: both; }
+
+.post-8 .entry-header,
+.post-3570 .entry-header,
+.page-id-3755 .entry-header {
+  margin-bottom: -2em !important; }
+
+.type-wcb_speaker .entry-title,
+.type-wcb_session .entry-title,
+.wcorg-sessions h2,
+.wcorg-speaker h2 {
+  color: #3f809b;
+  font-size: 1.625rem; }
+
+.wcorg-speaker-description img {
+  float: left;
+  margin-bottom: 1em;
+  margin-right: 2em; }
+
+.wcorg-session {
+  float: left;
+  margin-bottom: 1em; }
+  .wcorg-session .avatar:not(:first-of-type) {
+    margin-left: 1.5em; }
+
+.wcorg-session .avatar:last-of-type {
+  margin-right: 2em; }
+
+.wcorg-sessions .wcpt-session-meta {
+  font-weight: bold; }
+
+@media screen and (max-width: 700px) {
+  .wcorg-session,
+  .wcorg-speaker {
+    margin-bottom: 1em;
+    padding-top: 2em; }
+  .post-8 .entry-header,
+  .post-3570 .entry-header
+.page-id-3755 .entry-header {
+    margin-bottom: 0 !important; } }
+
+.wcpt-session-meta {
+  visibility: hidden;
+  text-indent: -1.5em; }
+  .wcpt-session-meta a {
+    visibility: visible; }
+    .wcpt-session-meta a:not(:first-of-type) {
+      position: relative; }
+      .wcpt-session-meta a:not(:first-of-type)::bofore {
+        content: ',';
+        position: absolute;
+        left: 1em; }
+      .wcpt-session-meta a:not(:first-of-type):hover:before, .wcpt-session-meta a:not(:first-of-type):active:before, .wcpt-session-meta a:not(:first-of-type):focus:before {
+        color: #000; }
+
+.wcorg-session-description {
+  background: url("https://2018.ogijima.wordcamp.org/files/2018/06/icon_speaker.png") left top 4px no-repeat;
+  background-size: 20px; }
 
 .table-sponsor h3 {
   margin: 1.5em 0 1em;
@@ -1253,8 +1477,6 @@ body.page-slug-sponsors .site-content {
           -ms-flex: 1;
           flex: 1;
           margin-left: 2em; } }
-  .twentyseventeen-panel:nth-child(5) .entry-header .entry-title::after {
-    content: 'SPONSORS'; }
   @media screen and (min-width: 1024px) {
     .twentyseventeen-panel:nth-child(5) .panel-content .wrap {
       padding-right: 0;

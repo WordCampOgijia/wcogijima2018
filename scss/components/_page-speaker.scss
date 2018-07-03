@@ -1,0 +1,82 @@
+.wcorg-session,
+.wcorg-speaker {
+  clear: both;
+  margin-bottom: -3em;
+  padding-top: 7em;
+  &::after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+.post-8 .entry-header,
+.post-3570 .entry-header,
+.page-id-3755 .entry-header {
+  margin-bottom: -2em !important;
+}
+.type-wcb_speaker .entry-title,
+.type-wcb_session .entry-title,
+.wcorg-sessions h2,
+.wcorg-speaker h2 {
+  color: #3f809b;
+  font-size: 1.625rem;
+}
+.wcorg-speaker-description img {
+  float: left;
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+.wcorg-session{
+  float: left;
+  margin-bottom: 1em;
+  .avatar{
+    &:not(:first-of-type) {
+      margin-left: 1.5em;
+    }
+  }
+}
+.wcorg-session .avatar:last-of-type {
+  margin-right: 2em;
+}
+.wcorg-sessions .wcpt-session-meta {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .wcorg-session,
+  .wcorg-speaker {
+    margin-bottom: 1em;
+    padding-top: 2em;
+  }
+  .post-8 .entry-header,
+  .post-3570 .entry-header
+  .page-id-3755 .entry-header {
+    margin-bottom: 0 !important;
+  }
+}
+
+.wcpt-session-meta{
+  visibility: hidden;
+  text-indent: -1.5em;
+  a{
+    visibility: visible;
+    &:not(:first-of-type){
+      position: relative;
+      &::bofore{
+        content: ',';
+        position: absolute;
+        left: 1em;
+      }
+      &:hover:before,
+      &:active:before,
+      &:focus:before {
+        color: #000;
+      }
+    }
+  }
+}
+
+.wcorg-session-description {
+  background: url('https://2018.ogijima.wordcamp.org/files/2018/06/icon_speaker.png') left top 4px no-repeat;
+  background-size: 20px;
+}
