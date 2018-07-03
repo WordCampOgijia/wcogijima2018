@@ -831,12 +831,12 @@ td.wcb-favourite-session a.fav-session-button {
     margin-top: 0 !important; }
     .entry-content .wcpt-schedule tr, .entry-content .wcpt-schedule td {
       margin-bottom: 0; }
-    .entry-content .wcpt-schedule tr {
-      border: 0; }
     .entry-content .wcpt-schedule td {
       padding: 10px 15px 15px; }
   .wcpt-session-title {
     display: inline; }
+  span.wcpt-session-speakers a {
+    color: #000; }
   span.wcpt-session-speakers:before {
     content: ''; }
   .wcpt-schedule-session {
@@ -895,16 +895,17 @@ td.wcb-favourite-session a.fav-session-button {
   color: #3f809b;
   font-size: 1.625rem; }
 
+.wcorg-session-description img {
+  float: left;
+  margin-bottom: 1em; }
+
 .wcorg-speaker-description img {
   float: left;
   margin-bottom: 1em;
   margin-right: 2em; }
 
-.wcorg-session {
-  float: left;
-  margin-bottom: 1em; }
-  .wcorg-session .avatar:not(:first-of-type) {
-    margin-left: 1.5em; }
+.wcorg-session .avatar:not(:first-of-type) {
+  margin-left: 1.5em; }
 
 .wcorg-session .avatar:last-of-type {
   margin-right: 2em; }
@@ -920,7 +921,9 @@ td.wcb-favourite-session a.fav-session-button {
   .post-8 .entry-header,
   .post-3570 .entry-header
 .page-id-3755 .entry-header {
-    margin-bottom: 0 !important; } }
+    margin-bottom: 0 !important; }
+  span.wcpt-session-speakers a {
+    color: #000; } }
 
 .wcpt-session-meta {
   visibility: hidden;
@@ -929,7 +932,7 @@ td.wcb-favourite-session a.fav-session-button {
     visibility: visible; }
     .wcpt-session-meta a:not(:first-of-type) {
       position: relative; }
-      .wcpt-session-meta a:not(:first-of-type)::bofore {
+      .wcpt-session-meta a:not(:first-of-type)::before {
         content: ',';
         position: absolute;
         left: 1em; }

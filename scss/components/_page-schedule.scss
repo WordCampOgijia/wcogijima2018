@@ -145,9 +145,6 @@ td.wcb-favourite-session a.fav-session-button {
       tr,td {
         margin-bottom: 0;
       }
-      tr{
-        border: 0;
-      }
       td{
         padding: 10px 15px 15px;
       }
@@ -156,10 +153,14 @@ td.wcb-favourite-session a.fav-session-button {
   .wcpt-session-title {
     display: inline;
   }
-  span.wcpt-session-speakers:before {
-    content: '';
+  span.wcpt-session-speakers{
+    a{
+      color: #000;
+    }
+    &:before{
+      content: '';
+    }
   }
-
   .wcpt-schedule-session {
     margin-bottom: 0;
     border-bottom: 0 !important;

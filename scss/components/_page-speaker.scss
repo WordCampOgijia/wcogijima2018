@@ -21,14 +21,16 @@
   color: #3f809b;
   font-size: 1.625rem;
 }
+.wcorg-session-description img{
+  float: left;
+  margin-bottom: 1em;
+}
 .wcorg-speaker-description img {
   float: left;
   margin-bottom: 1em;
   margin-right: 2em;
 }
 .wcorg-session{
-  float: left;
-  margin-bottom: 1em;
   .avatar{
     &:not(:first-of-type) {
       margin-left: 1.5em;
@@ -53,6 +55,9 @@
   .page-id-3755 .entry-header {
     margin-bottom: 0 !important;
   }
+  span.wcpt-session-speakers a{
+    color: #000;
+  }
 }
 
 .wcpt-session-meta{
@@ -62,7 +67,7 @@
     visibility: visible;
     &:not(:first-of-type){
       position: relative;
-      &::bofore{
+      &::before{
         content: ',';
         position: absolute;
         left: 1em;
