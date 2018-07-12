@@ -176,11 +176,22 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
       transition: .3s;
     }
   }
+
+  .pushbutton-large {
+    padding: 1.5em 3em;
+    margin: 0 1em 1em;
+    border-radius: 3em;
+  }
+
 }
 
 @media screen and (min-width: 48em) {
   [id^="anchor-"] {
     padding-top: 5em !important;
     margin-top: -3.5em !important;
+  }
+  .entry-content .pushbutton-large {
+    padding: 2em 5em;
+    border-radius: 6em;
   }
 }
